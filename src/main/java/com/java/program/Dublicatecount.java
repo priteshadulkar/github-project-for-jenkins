@@ -1,8 +1,11 @@
 package com.java.program;
 
+import org.testng.annotations.Test;
+
 public class Dublicatecount {
 
-   public static void main(String[] args)
+	@Test
+   public void minh()
    {
 	   
 	   String s1 = "apkiassii ";
@@ -43,6 +46,7 @@ public class Dublicatecount {
 			   
 			   
 		   }
+	   System.out.println("<==========================>");
 		   
 	   }
 	   

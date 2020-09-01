@@ -27,9 +27,7 @@ public class Dublicatevalue {
 		
 	}
 	
-	public void Array()
-	{
-	ArrayList<Object[]> mydata = new ArrayList<Object[]>();
+	
 	
 		
 		
@@ -38,14 +36,8 @@ public class Dublicatevalue {
 		
 		
 		
-	}
-	public static void main(String[] args)
-	{
-		
-		Dublicatevalue  v = new Dublicatevalue();
-		v.value();
-		
-	}
+	
+	
 	
 	
 }

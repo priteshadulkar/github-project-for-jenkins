@@ -25,7 +25,7 @@ public class All {
 	}
 	//.......................Split................................. 
 	
-
+	 @Test
 	public void GetString()
 	{
 		String s4 = " wall Streat is 90 " ;
@@ -49,7 +49,7 @@ public class All {
 
 //..........................Reverse ................................
 
-	
+	 @Test
  public void Reverse()
  {
 	 //selenium = muineles
@@ -63,6 +63,7 @@ public class All {
 
 /////..................plaindron 1234 = 54321.................
   
+ @Test
     public void Palindron()
     {
     	int sum  =1 ;
@@ -76,7 +77,7 @@ public class All {
         }
      	System.out.println(sum);
     }
-  
+  @Test
    public void  Factorail()
    {
 	   int n =4 ;
@@ -154,7 +155,7 @@ public class All {
     		  }
     		 
     		 
-    		 
+    		 System.out.println("<==========================>");
     	 }
     	
     	

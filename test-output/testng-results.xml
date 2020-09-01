@@ -1,17 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="15" passed="15">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27231" started-at="2020-08-13T18:50:20Z" finished-at="2020-08-13T18:50:48Z">
+  <suite name="Suite" duration-ms="188" started-at="2020-09-01T10:02:48Z" finished-at="2020-09-01T10:02:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27231" started-at="2020-08-13T18:50:20Z" finished-at="2020-08-13T18:50:48Z">
-      <class name="com.Jankins.Maven1st">
-        <test-method status="PASS" signature="Double()[pri:0, instance:com.Jankins.Maven1st@3e2e18f2]" name="Double" duration-ms="27177" started-at="2020-08-14T00:20:20Z" finished-at="2020-08-14T00:20:48Z">
+    <test name="Test" duration-ms="188" started-at="2020-09-01T10:02:48Z" finished-at="2020-09-01T10:02:48Z">
+      <class name="com.java.program.All">
+        <test-method status="PASS" signature="Concate()[pri:0, instance:com.java.program.All@e45f292]" name="Concate" duration-ms="30" started-at="2020-09-01T15:32:48Z" finished-at="2020-09-01T15:32:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Double -->
-      </class> <!-- com.Jankins.Maven1st -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- Concate -->
+        <test-method status="PASS" signature="Factorail()[pri:0, instance:com.java.program.All@e45f292]" name="Factorail" duration-ms="4" started-at="2020-09-01T15:32:48Z" finished-at="2020-09-01T15:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Factorail -->
+        <test-method status="PASS" signature="GetString()[pri:0, instance:com.java.program.All@e45f292]" name="GetString" duration-ms="2" started-at="2020-09-01T15:32:48Z" finished-at="2020-09-01T15:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetString -->
+        <test-method status="PASS" signature="Palindron()[pri:0, instance:com.java.program.All@e45f292]" name="Palindron" duration-ms="3" started-at="2020-09-01T15:32:48Z" finished-at="2020-09-01T15:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Palindron -->
+        <test-method status="PASS" signature="Reverse()[pri:0, instance:com.java.program.All@e45f292]" name="Reverse" duration-ms="4" started-at="2020-09-01T15:32:48Z" finished-at="2020-09-01T15:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reverse -->
+        <test-method status="PASS" signature="prime()[pri:0, instance:com.java.program.All@e45f292]" name="prime" duration-ms="5" started-at="2020-09-01T15:32:48Z" finished-at="2020-09-01T15:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prime -->
+      </class> <!-- com.java.program.All -->
+      <class name="com.java.program.AllString">
+        <test-method status="PASS" signature="Hashset()[pri:0, instance:com.java.program.AllString@1e397ed7]" name="Hashset" duration-ms="3" started-at="2020-09-01T15:32:48Z" finished-at="2020-09-01T15:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hashset -->
+        <test-method status="PASS" signature="SpecialCharacter()[pri:0, instance:com.java.program.AllString@1e397ed7]" name="SpecialCharacter" duration-ms="5" started-at="2020-09-01T15:32:48Z" finished-at="2020-09-01T15:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SpecialCharacter -->
+        <test-method status="PASS" signature="Stringvalue()[pri:0, instance:com.java.program.AllString@1e397ed7]" name="Stringvalue" duration-ms="3" started-at="2020-09-01T15:32:48Z" finished-at="2020-09-01T15:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Stringvalue -->
+        <test-method status="PASS" signature="substring()[pri:0, instance:com.java.program.AllString@1e397ed7]" name="substring" duration-ms="2" started-at="2020-09-01T15:32:48Z" finished-at="2020-09-01T15:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- substring -->
+      </class> <!-- com.java.program.AllString -->
+      <class name="com.java.program.Dublicatecount">
+        <test-method status="PASS" signature="minh()[pri:0, instance:com.java.program.Dublicatecount@3f49dace]" name="minh" duration-ms="7" started-at="2020-09-01T15:32:48Z" finished-at="2020-09-01T15:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minh -->
+      </class> <!-- com.java.program.Dublicatecount -->
+      <class name="com.java.program.Stringsplit">
+        <test-method status="PASS" signature="Add()[pri:0, instance:com.java.program.Stringsplit@31a5c39e]" name="Add" duration-ms="3" started-at="2020-09-01T15:32:48Z" finished-at="2020-09-01T15:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add -->
+      </class> <!-- com.java.program.Stringsplit -->
+      <class name="com.java.program.Stringsort">
+        <test-method status="PASS" signature="m2()[pri:0, instance:com.java.program.Stringsort@5bcab519]" name="m2" duration-ms="8" started-at="2020-09-01T15:32:48Z" finished-at="2020-09-01T15:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+      </class> <!-- com.java.program.Stringsort -->
+      <class name="com.java.program.StringP">
+        <test-method status="PASS" signature="con()[pri:0, instance:com.java.program.StringP@5f2108b5]" name="con" duration-ms="4" started-at="2020-09-01T15:32:48Z" finished-at="2020-09-01T15:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- con -->
+      </class> <!-- com.java.program.StringP -->
+      <class name="com.java.program.Sort">
+        <test-method status="PASS" signature="Sortingorder()[pri:0, instance:com.java.program.Sort@3c0ecd4b]" name="Sortingorder" duration-ms="14" started-at="2020-09-01T15:32:48Z" finished-at="2020-09-01T15:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sortingorder -->
+      </class> <!-- com.java.program.Sort -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.Jankins.Maven1st">
+      <class name="com.java.program.StringP">
         <methods>
-          <include name="Double"/>
+          <include name="con"/>
         </methods>
-      </class> <!-- com.Jankins.Maven1st -->
+      </class> <!-- com.java.program.StringP -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -11,6 +11,7 @@ public class AllString {
 
 	int count = 0 ;
 	// to replace all space 
+	@Test
 	public void SpecialCharacter()
 	{
 	String s1= "kdsksjkd$%^&  nj  jj";
@@ -19,6 +20,7 @@ public class AllString {
 	System.out.println(space);
 	}
 	
+	@Test
 	public void substring()
 	{
 		String s2 = "manoj gupta" ; 
@@ -28,7 +30,7 @@ public class AllString {
 		
 		
 	}
-	//@Test
+	@Test
 	public void Hashset()
 	{
 		String[] s1 = {"core" , "java" ,"c#","java" , "core" ,"fh" , "core ", "c#" ,"dsfn" } ;
@@ -93,7 +95,7 @@ public class AllString {
 		   }
 		
 		
-		
+		 System.out.println("<==========================>");
 		
 	}
 	

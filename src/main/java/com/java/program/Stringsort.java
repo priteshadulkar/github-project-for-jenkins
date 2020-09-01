@@ -2,12 +2,15 @@ package com.java.program;
 
 import java.util.Arrays;
 
+import org.testng.annotations.Test;
+
 public class Stringsort {
 
 	
 	
 	
-	public static void main(String[] args)
+	@Test
+	public void m2()
 	{
 		
 		String  s1 = "my  name is  a john " ; 
@@ -19,7 +22,7 @@ public class Stringsort {
 		System.out.println("using String");
 		String[] s12 = s1.split("//s");
 	
-		
+		System.out.println("<==========================>");
 		
 		
 	}
